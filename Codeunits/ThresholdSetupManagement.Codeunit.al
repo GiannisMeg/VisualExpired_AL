@@ -1,6 +1,6 @@
-codeunit 50120 ThresholdSetupManagement
+codeunit 50120 TresholdSetupManagement
 {
-    local procedure RunThresholdSetup(var TresholdSetupNotification: Notification)
+    procedure RunTresholdSetup(var TresholdSetupNotification: Notification)
     var
         ThresholdSetupPage: Page ThresholdSetup;
 
